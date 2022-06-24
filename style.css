@@ -6,14 +6,13 @@
   background-color: darkgrey;
 }
 
-#main{
-background-image:url(A3B95B94-5D09-48E8-A4F1-7BF4DDEE16D7.gif);
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image:url("A3B95B94-5D09-48E8-A4F1-7BF4DDEE16D7.gif");
 }
 
-.main {
-  padding-top: 50px;
-  overflow: auto;
-}
  
 .footer {
   position: fixed;
