@@ -9,9 +9,10 @@
 body {
   margin: 0;
   width:150px;
+  background-size: 50% 50%;
 }
 img {
-width: 600px;
+  width: 600px;
 }
 .footer {
   position: fixed;
