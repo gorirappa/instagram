@@ -5,7 +5,11 @@
   height: 50px;
   background-color: darkgrey;
 }
- 
+
+#main{
+background-image:url(images/main.gif);
+}
+
 .main {
   padding-top: 50px;
   overflow: auto;
@@ -24,8 +28,5 @@
     background-color:  #ccc;
     padding: 78px 40px;
     margin: 100px auto;
-}
-
-.rotate {
     animation: rotate_anime 1s infinite; /* rotate_animeを1秒かけて実行するのを繰り返す */
 }
