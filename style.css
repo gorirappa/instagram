@@ -9,7 +9,7 @@
 body {
   margin: 0;
   width:150px;
-  background-image: url("a.jpg");
+  background="a.jpg";
 }
 img {
 width: 600px;
