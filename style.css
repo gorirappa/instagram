@@ -18,3 +18,7 @@
   height: 50px;
   background-color: darkgrey;
 }
+
+.rotate {
+    animation: rotate_anime 1s infinite; /* rotate_animeを1秒かけて実行するのを繰り返す */
+}
