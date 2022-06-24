@@ -8,12 +8,13 @@
 
 body {
   margin: 0;
-  width: 400vw;
-  height: 400vh;
+  width:150px;
   background-image:url("https://asset.watch.impress.co.jp/img/wf/docs/1251/932/60fpsparrot.gif");
 }
 
- 
+img {
+width: 600px;
+}
 .footer {
   position: fixed;
   bottom: 0;
