@@ -22,10 +22,20 @@ body {
   background-color: darkgrey;
 }
 
-.rotate {
-    width: 100px;
-    background-color:  #ccc;
-    padding: 78px 40px;
-    margin: 100px auto;
-    animation: rotate_anime 1s infinite; /* rotate_animeを1秒かけて実行するのを繰り返す */
+span{
+  display:inline-block;
+  width:100px;
+  margin:50px;
+  height:100px;
+  margin:30px;
+  background:gold;
+}
+
+#box1{
+  animation:3s linear infinite rotation1;
+}
+
+@keyframes rotation1{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg); }
 }
