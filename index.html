@@ -7,6 +7,12 @@
 <body background="a.png" marginwidth="0" marginheight="0">
   <div class="header">平塚江南PC部ホームページ(仮)</div>
   <div class="main">
-    <p><span id="box1">テスト</span></p>
+    <script language="JavaScript">
+       txt = new Array();
+       txt[0] = "test";
+       txt[1] = "テスト";
+       n = Math.floor(Math.random()*txt.length);
+       document.write("<p><span id="box1">"+txt[n]+"</span></p>");
+    </script>
   </div>
 </body></html>
